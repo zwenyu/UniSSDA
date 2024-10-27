@@ -16,7 +16,7 @@ We prepared two public datasets:
 python download_data.py
 ```
 
-Generate splits by navigating to `data` and running
+In the `data` directory, the `txt` folder contains the text files for the splits for each dataset, under the name of the dataset. `txt` folder is for covariate shift only, `txt_labelshift` folder is for covariate + label shift with same sample size as in `txt` folder, and `txt_fullsize` folder is for covariate + label shift with full dataset size. Generate splits by navigating to the selected folder and running
 ```bash
 python generate_txt.py
 ```
