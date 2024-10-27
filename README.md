@@ -1,4 +1,4 @@
-This repository contains code demonstrating the UniSSDA method in our CVPR 2024 paper [Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Universal_Semi-Supervised_Domain_Adaptation_by_Mitigating_Common-Class_Bias_CVPR_2024_paper.pdf).
+This repository contains code demonstrating the UniSSDA method in our CVPR 2024 paper [Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Universal_Semi-Supervised_Domain_Adaptation_by_Mitigating_Common-Class_Bias_CVPR_2024_paper.pdf). See [arXiv version](https://arxiv.org/pdf/2403.11234) for appendix.
 
 <img src="https://github.com/user-attachments/assets/83d701b6-f7e9-4885-b82c-96b9253a491a" width="500">
 
@@ -65,7 +65,7 @@ Next, you have to add configs for the dataset in `configs/hparams.py`, `configs/
 - [PAC](https://www.bmvc2021-virtualconference.com/assets/papers/0764.pdf)
 - [AdaMatch](https://arxiv.org/pdf/2106.04732.pdf)
 - [DST](https://arxiv.org/abs/2202.07136)
-- Proposed method
+- [Proposed method](https://arxiv.org/pdf/2403.11234)
 
 ### Adding New Algorithm
 To add a new algorithm, place it in `algorithms/algorithms.py`.
