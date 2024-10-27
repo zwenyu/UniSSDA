@@ -16,6 +16,11 @@ We prepared two public datasets:
 python download_data.py
 ```
 
+Generate splits by navigating to `data` and running
+```bash
+python generate_txt.py
+```
+
 ### Adding New Dataset
 
 #### Structure of data
@@ -53,7 +58,6 @@ Next, you have to add configs for the dataset in `configs/hparams.py`, `configs/
 ## Domain Adaptation Algorithms
 
 ### Existing Algorithms
-- SourceOnly
 - Supervised baseline
 - [CDAC](https://arxiv.org/abs/2104.09415)
 - [PAC](https://www.bmvc2021-virtualconference.com/assets/papers/0764.pdf)
@@ -104,7 +108,10 @@ Additional WandB arguments can be specified through `wandb_dir, wandb_project, w
 ## Results
 
 Results for each run are saved in `experiments_logs`.
-Obtain consolidated results by `python consolidation/consolidate_run.py`.
+Obtain consolidated results by
+```bash
+python consolidation/consolidate_run.py
+```
 
 ## Acknowledgement
 
