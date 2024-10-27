@@ -115,6 +115,20 @@ Obtain consolidated results by
 python consolidation/consolidate_run.py
 ```
 
+## Citation
+
+```
+@INPROCEEDINGS{zhang2024unissda,
+  author={Zhang, Wenyu and Liu, Qingmu and Wei Cong, Felix Ong and Ragab, Mohamed and Foo, Chuan-Sheng},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={23912-23921},
+  doi={10.1109/CVPR52733.2024.02257}}
+```
+
 ## Acknowledgement
 
 This repository is adapted from [AdaTime: A Benchmarking Suite for Domain Adaptation on Time Series Data](https://github.com/emadeldeen24/AdaTime).
