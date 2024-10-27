@@ -1,5 +1,7 @@
 This repository contains code demonstrating the UniSSDA method in our CVPR 2024 paper [Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Universal_Semi-Supervised_Domain_Adaptation_by_Mitigating_Common-Class_Bias_CVPR_2024_paper.pdf).
 
+<img src="https://github.com/user-attachments/assets/83d701b6-f7e9-4885-b82c-96b9253a491a" width="500">
+
 ## Setup
 Create a conda environment:
 ```bash
